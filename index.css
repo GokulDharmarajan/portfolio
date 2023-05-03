@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+/* Nav start */
+nav {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  margin: 0;
+  padding: 0;
+  
+}
+html {
+  overflow-x: hidden;
+}
+.navbar .container a {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+}
+/* Nav End */
+/* Home start */
+#Home {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+.home-content {
+  color: #fff;
+}
+.home-content h1,
+h3 {
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+}
+
+.home-content h2 {
+  font-weight: 600;
+  font-family: "Orbitron", sans-serif;
+  font-size: 40px;
+}
+
+.home-content p {
+  font-weight: 600;
+  font-family: "Orbitron", sans-serif;
+  font-size: 15px;
+}
+
+.icon-align {
+  color: #fff;
+  padding: 2.5%;
+  font-size: 25px;
+  border-radius: 50%;
+  background: black;
+}
+.icon-align:hover {
+  color: black;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+/* Home end */
+/* About Start */
+.About h1 {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.img-back {
+  border-radius: 30px 100px;
+  box-shadow: 10px 15px #fd1da5;
+}
+.details {
+  font-weight: 600;
+}
+.button {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  outline: none;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+}
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
+/* .button:hover {
+  color: #fff;
+  background: #2d9549;
+  background: linear-gradient(135deg, #2d9549, #00758fefe0);
+} */
+
+/* About End */
+/* Education start */
+.box1 {
+  background-color: rgba(255, 255, 255, 1);
+  color: #000;
+  border-radius: 10px;
+  box-shadow: -3px -1px 13px 1px rgba(189, 16, 224, 1) inset;
+}
+/* Education End */
+
+/* Skils start */
+.skils h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.box {
+  box-shadow: 1px 1px 3px 3px #58eb93;
+  border-radius: 5px;
+}
+.html-icon {
+  color: orangered;
+}
+.css-icon {
+  color: dodgerblue;
+}
+.boostrap-icon {
+  color: purple;
+}
+.js-icon {
+  color: yellow;
+}
+.react-icon {
+  color: #7cc5d9;
+}
+.node-icon {
+  color: green;
+}
+.sql-icon {
+  color: #00758f;
+}
+.Angular-icon {
+  color: #dd1b16;
+}
+
+.rating .checked {
+  color: orangered;
+}
+.checked1 {
+  color: orange;
+}
+/* Skils End */
+/* contact start */
+.contact-content h1 {
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+}
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+}
+
+.icon {
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  padding-left: 35px;
+}
+.contact-button input {
+  border: none;
+  background: #21e2e0;
+  color: black;
+}
+.contact-card {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+/* contact end */
