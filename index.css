@@ -92,13 +92,13 @@ h3 {
   text-decoration: none;
   color: #fff;
 }
-/* .button:hover {
+.button:hover {
   color: #fff;
-  background: #2d9549;
-  background: linear-gradient(135deg, #2d9549, #00758fefe0);
-} */
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
 
 /* About End */
+
 /* Education start */
 .box1 {
   background-color: rgba(255, 255, 255, 1);
@@ -107,9 +107,8 @@ h3 {
   height: 270px;
   box-shadow: -3px -1px 13px 1px rgba(189, 16, 224, 1) inset;
 }
-.Education p{
+.Education p {
   line-height: 15px;
-
 }
 /* Education End */
 
@@ -134,28 +133,28 @@ h3 {
 }
 
 .html-icon {
-  color: orange;
+  color: #f16529;
 }
 .css-icon {
-  color: dodgerblue;
+  color: #2965f1;
 }
 .boostrap-icon {
-  color: purple;
+  color: #563d7c;
 }
 .js-icon {
-  color: yellow;
+  color: #f0db4f;
 }
 .react-icon {
-  color: #7cc5d9;
+  color: #61dbfb;
 }
 .node-icon {
-  color: green;
+  color: #3c873a;
 }
 .sql-icon {
   color: #00758f;
 }
 .Angular-icon {
-  color: red;
+  color: #dd1b16;
 }
 
 .rating .checked {
