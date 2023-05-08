@@ -105,7 +105,7 @@ h3 {
   color: #000;
   border-radius: 10px;
   height: 270px;
-  box-shadow: -3px -1px 13px 1px rgba(189, 16, 224, 1) inset;
+  box-shadow: -3px -1px 13px 1px #00d2ff inset;
 }
 .Education p {
   line-height: 15px;
