@@ -400,23 +400,26 @@
               <div class="input-icons">
                 <div class="mb-3 mt-3">
                   <i class="fa fa-user icon ps-2 pt-3"></i>
-                  <input class="input-field form-control" type="text " required placeholder="Enter Name" id="name" />
+                  <input class="input-field form-control" type="text " required placeholder="Enter Name" id="cname"
+                    name="cname" />
                   <div class="mb-3 mt-3">
                     <i class="fa fa-envelope icon ps-2 pt-3"></i>
-                    <input class="input-field form-control" type="email" placeholder="Email" required id="email" />
+                    <input class="input-field form-control" type="email" placeholder="Email" required id="email"
+                      name="email" />
                   </div>
                   <div class="mb-3 mt-3">
                     <i class="fa-solid fa-phone icon ps-2 pt-3"></i>
 
-                    <input class="input-field form-control" type="text" placeholder="Enter Number" required
-                      id="phone" />
+                    <input class="input-field form-control" type="text" placeholder="Enter Number" required id="phone"
+                      name="phone" />
                   </div>
                   <div class="mb-3 mt-3">
                     <i class="fa-solid fa-message icon ps-2 pt-3"></i>
-                    <textarea name="" class="form-control input-field" id="message" rows="4"></textarea>
+                    <textarea name="" class="form-control input-field" id="message" name="message" rows="4"
+                      required></textarea>
                   </div>
                   <div class="contact-button mx-auto text-center mt-3">
-                    <button class="btn btn-danger btn-lg contact-button" id="btn" onclick="sendEmail()">
+                    <button class="btn btn-danger btn-lg contact-button" id="btn" onclick="insert()">
                       Send
                     </button>
                   </div>
@@ -430,28 +433,7 @@
   </section>
 
   <!-- Contact End -->
-  <script>
-    function sendEmail() {
-      var Name = document.getElementById("name").value;
-      var Email = document.getElementById("email").value;
-      var Phone = document.getElementById("phone").value;
-      var Message = document.getElementById("message").value;
-      var btn = document.getElementById("btn").value;
-
-      Email.send({
-        Host: "smtp.gmail.com",
-        Username: "d.gokul994477@gmail.com",
-        Password: "Gokuldharmaraj007",
-        To: "d.gokul995245@gmail.com",
-        From: "d.gokul994477@gmail.com",
-        Subject: "Sending Email using javascript",
-        Body: "Well that was easy!!",
-      }).then(function (message) {
-        alert("mail sent successfully");
-      });
-    }
-  </script>
-
+  <script src="./server.js"></script>
   <script>
     AOS.init();
   </script>
